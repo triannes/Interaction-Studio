@@ -1,1 +1,19 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main Page.css">
+    <title>Main Page</title>
+</head>
+<body>
+    <h1>Hello my name is Trianne.</h1>
+    <h1 id="waveemoji">👋</h1>
+    <p>This is my landing page for all the projects that I will make in Interaction Studio!</p>
+    <a id="firstproject" href="https://github.com/triannes/Interaction-Studio/edit/main/firstproject">First Project</a>
+    <br>
+    <a id="secondproject" href="https://github.com/triannes/Interaction-Studio/edit/main/secondproject">Second Project</a>
+    <br>
+    <a id="thirdproject" href="https://github.com/triannes/Interaction-Studio/edit/main/thirdproject">Third Project</a>
+</body>
+</html>
