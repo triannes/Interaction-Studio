@@ -1,0 +1,88 @@
+body {
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+
+.path {
+    display: block;
+    margin: 1em auto;
+    color: black;
+}
+
+.path:nth-of-type(odd) {
+    transform: translateX(-30px);
+}
+
+.path:nth-of-type(even) {
+    transform: translateX(30px);
+}
+
+h1, h3 {
+    font-family: "goudy-bookletter-1911", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0.2em 0;        
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.path {
+    color: black;
+}
+
+.path:visited {   
+    color: rgb(149, 134, 118);       
+    text-decoration: none;   
+}
+
+.goback {
+    display: block;
+    margin-top: 5em;
+    color: black;
+}
+
+.zigzag {
+    position: absolute;
+    width: 25em;
+    top: -5em;
+    right: -7em;
+}
+.chess {
+    position: absolute;
+    width: 15em;
+    top: 10em;
+    left: 15em;
+    animation: rotate 2s infinite steps(1);
+}
+
+.revolver {
+    position: absolute;
+    width: 15em;
+    bottom: 3em;
+    right: 10em;
+    animation: rotate 2s infinite steps(1);
+}
+
+
+@keyframes rotate {
+    0% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg); }
+    100% { transform: rotate(-20deg); }
+}
+
+.texttexture {
+    position: absolute;
+    bottom: 3em;
+    width: 40em;
+    left: -20em;
+    rotate: 275deg;
+}

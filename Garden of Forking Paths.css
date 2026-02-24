@@ -1,0 +1,118 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1, h3 {
+    font-family: "goudy-bookletter-1911", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0.2em 0;        
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+p {
+    font-family: "goudy-bookletter-1911", serif;
+    width: 50%; 
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.story p {
+    font-family: "goudy-bookletter-1911", serif;
+    width: 50%; 
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.back {
+    display: block;
+    color: black;
+    cursor: pointer;
+    margin-top: 3em;
+}
+
+.oldphone {
+    position: absolute; 
+    top: 15em;
+    right: 3em;
+    width: 15em;
+    rotate: 20deg;
+}
+
+.texttexture {
+    position: absolute;
+    top: 3em;
+    width: 50em;
+    rotate: 275deg;
+    right: -20em;
+}
+
+.train {
+    position: absolute;
+    bottom: -20em;
+    width: 15em;
+    left: 3em;
+}
+
+.streetlamp {
+    position: absolute;
+    bottom: 2em;
+    width: 45em;
+    left: -10em;
+}
+
+.irongate {
+    position: absolute;
+    top: 18em;
+    width: 20em;
+    right: 1em;
+}
+
+.zigzag {
+    position: absolute;
+    bottom: -20em;
+    width: 30em;
+    left: -8em;
+    z-index: -1;
+    rotate: 30deg;
+}
+
+.writingcabinet {
+    position: absolute;
+    top: 40em;
+    width: 15em;
+    right: 3em;
+}
+
+.mountain {
+    position: absolute;
+    left: 2em;
+    width: 16em;
+    bottom: -15em;
+}
+
+.knight {
+    position: absolute;
+    bottom: -2em;
+    width: 15em;
+    rotate: 20deg;
+    left: 5em;
+}
+
+.revolver {
+    position: absolute;
+    bottom: 10em;
+    rotate: -20deg;
+    right: 3em;
+    width: 15em;
+}

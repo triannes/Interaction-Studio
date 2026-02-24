@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 213, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    min-height: 100vh; 
+}
+
+.parent {
+    display: flex;            
+    justify-content: center;  
+    align-items: flex-start; 
+    gap: 50px;             
+    margin-top: 50px;          
+    margin-bottom: 50px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;     
+    gap: 10px;              
+    text-align: center;    
+}
+
+.child {
+    margin: 0;               
+}
+
+img {
+    width: 20em;
+}
+
+h1 {
+    font-family: "goudy-bookletter-1911", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.group h1, .group img {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.parent .group:hover img,
+.parent .group:hover h1 {
+    opacity: 1;
+}
